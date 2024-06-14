@@ -77,34 +77,371 @@
                 </div>
             </header>
             <div class="form-section">
-                <div>
+                <div class="form-title">
                     <h1>Check Availability</h1>
                     <p>It is a long established fact that a reader will be
-                        distracted by the readable content of a page.</p>
+                        distracted the readable content of a page.</p>
                 </div>
-                <div>
-                    <img src="./image/form.png" alt="form">
-                    <form>
-                        <div>
-                            <label for>CHECK-IN</label>
-                            <input type="date" name="date">
+                <div class="form-part">
+                    <div class="bck-img">
+                        <img src="./image/form.png" alt="form">
+                    </div>
+                    <div class="frm-section">
+                        <div class="frm-item">
+                            <div class="frm-img">
+                                <img src="./image/formpic.png" alt="frmpic">
+                                <img src="./image/formpic.png" alt="frmpic">
+                                <img src="./image/formpic.png" alt="frmpic">
+                                <img src="./image/formpic.png" alt="frmpic">
+                            </div>
+                            <form>
+                                <div class="form-item">
+                                    <label for="checkin">CHECK-IN</label>
+                                    <input type="date" id="checkin"
+                                        placeholder="Thu, 21 Jul 2022"
+                                        onfocus="this.type='date'"
+                                        onblur="this.type='text'" />
+                                </div>
+                                <div class="form-item">
+                                    <label for="checkout">CHECK-OUT</label>
+                                    <input type="date" name="date" id="checkout"
+                                        onfocus="this.type='date'"
+                                        onblur="this.type='text'"
+                                        placeholder="Fri, 22 Jul 2022" />
+                                </div>
+                                <div class="form-select">
+                                    <label>GUESTS:</label>
+                                    <select>
+                                        <option selected>1 Room</option>
+                                        <option>2 Room</option>
+                                        <option>3 Room</option>
+                                    </select>
+                                </div>
+                                <button class="form-btn" type="submit">CHECK
+                                    AVAILABILITY</button>
+                            </form>
                         </div>
-                        <div>
-                            <label for>CHECK-OUT</label>
-                            <input type="date" name="date">
-                        </div>
-                        <div>
-                            <label for>CHECK-IN</label>
-                            <select name id>
-                                <option selected>Room 1</option>
-                                <option>Room 2</option>
-                                <option>Room 3</option>
-                            </select>
-                        </div>
-                        <button type="submit">CHECK AVAILABILITY</button>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+            <!-- Container Card  -->
+            <div class="container-card">
+                <div class="top-section">
+                    <div class="top-title">
+                        <h1>Our Most Populer Room</h1>
+                        <p>It is a long established fact that a reader will be
+                            distraced
+                            by
+                            the readable content of a age</p>
+                    </div>
+                    <div class="section">
+                        <div class="card">
+                            <img src="./image/left.jpeg" alt="left">
+                            <div class="card-content">
+                                <h3>Deluxe Contrast Room</h3>
+                                <div class="box">
+                                    <div class="card-item">
+                                        <i
+                                            class="first-child fa-regular fa-square"></i>
+                                        <p>52 sqm</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="second-child fa-solid fa-bed"></i>
+                                        <p>2 Bed</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="third-child fa-solid fa-bath"></i>
+                                        <p>1 Bathroom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price">
+                                <h2>$200</h2>
+                                <p>/ Night</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./image/center.jpeg" alt="center">
+                            <div class="card-content">
+                                <h3>Luxery Twin Room</h3>
+                                <div class="box">
+                                    <div class="card-item">
+                                        <i
+                                            class="first-child fa-regular fa-square"></i>
+                                        <p>52 sqm</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="second-child fa-solid fa-bed"></i>
+                                        <p>2 Bed</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="third-child fa-solid fa-bath"></i>
+                                        <p>1 Bathroom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price">
+                                <h2>$250</h2>
+                                <p>/ Night</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./image/right.jpeg" alt="right">
+                            <div class="card-content">
+                                <h3>Single Contrast Room</h3>
+                                <div class="box">
+                                    <div class="card-item">
+                                        <i
+                                            class="first-child fa-regular fa-square"></i>
+                                        <p>52 sqm</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="second-child fa-solid fa-bed"></i>
+                                        <p>2 Bed</p>
+                                    </div>
+                                    <div class="card-item">
+                                        <i
+                                            class="third-child fa-solid fa-bath"></i>
+                                        <p>1 Bathroom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price">
+                                <h2>$280</h2>
+                                <p>/ Night</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottom Container -->
+                <div class="bottom-section">
+                    <div class="bottom-title">
+                        <p>OUR SERVICES</p>
+                        <h1>Hotel Facilities</h1>
+                    </div>
+                    <div class="section-box">
+                        <div class="bottom-card">
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Pick up & Drop</h2>
+                                    <img src="./image/pickup.png" alt="pickup">
+                                </div>
+                                <p>It is a long established fact that a reader
+                                    will
+                                    be distraced by
+                                    the readable content of a age.</p>
+                            </div>
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Parking Space</h2>
+                                    <img src="./image/parking.png"
+                                        alt="parking">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. A incidunt delectus
+                                    tempora
+                                    vitae.</p>
+                            </div>
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Room Services</h2>
+                                    <img src="./image/Rservices.png"
+                                        alt="Rservices">
+                                </div>
+                                <p>It is a long established fact that a reader
+                                    will
+                                    be distraced by
+                                    the readable content of a age.</p>
+                            </div>
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Swimming Pool</h2>
+                                    <img src="./image/swimming.png"
+                                        alt="swimming">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. A incidunt delectus
+                                    tempora
+                                    vitae.</p>
+                            </div>
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Fiber Internet</h2>
+                                    <img src="./image/fibre.png" alt="fibre">
+                                </div>
+                                <p>It is a long established fact that a reader
+                                    will
+                                    bedistraced by
+                                    the readable content of a age.</p>
+                            </div>
+                            <div class="content">
+                                <div class="grid-box">
+                                    <h2>Breakfast</h2>
+                                    <img src="./image/breakfast.png"
+                                        alt="breakfast">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. A incidunt delectus
+                                    tempora
+                                    vitae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Count Section -->
+            <div class="count-section">
+                <div class="count-item">
+                    <h1>302 +</h1>
+                    <p>Room $ Suites</p>
+                </div>
+                <div class="line"></div>
+                <div class="count-item">
+                    <h1>25</h1>
+                    <p>Restaurant</p>
+                </div>
+                <div class="line"></div>
+                <div class="count-item">
+                    <h1>510 +</h1>
+                    <p>Execptional Food</p>
+                </div>
+                <div class="line"></div>
+                <div class="count-item">
+                    <h1>65</h1>
+                    <p>Destination</p>
+                </div>
+            </div>
+            <!-- Video Section -->
+            <div class="video-section">
+                <div class="text-left">
+                    <div class="left-all">
+                        <div class="tbox">
+                            <div class="text-two">
+                                <h1>Descover Our History</h1>
+                                <div class="p-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Cumque alias,
+                                        dignissimos
+                                        nam
+                                        magnam fugiat sit sed tempore iure.</p>
+                                    <p>There are many variations of passages of
+                                        lorem
+                                        ipsum
+                                        available, but the majority have
+                                        suffered
+                                        alteration
+                                        in some form, by injected humour or
+                                        randomised
+                                        words
+                                        which don't look even slightly
+                                        believable.</p>
+                                </div>
+                            </div>
+                            <div class="video-btn">
+                                <button class="btn">Explore More</button>
+                                <div class="video-playimg">
+                                    <img src="./image/play.png" alt="play">
+                                    <span>Watch video</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-img">
+                            <img src="./image/formpic.png" alt="frmpic">
+                            <img src="./image/formpic.png" alt="frmpic">
+                            <img src="./image/formpic.png" alt="frmpic">
+                            <img src="./image/formpic.png" alt="frmpic">
+                        </div>
+                    </div>
+                </div>
+                <!-- Video pic -->
+                <div class="video-pic">
+                    <img src="./image/videopic.png" alt="video">
+                    <div class="videoply">
+                        <img src="./image/videoply.png" alt="ply">
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="secondcard-section">
+                <div class="top-card">
+                    <div class="topcard-title">
+                        <h1>Our Happy Customers</h1>
+                        <p>Know about our clients, we are a woldwide corporate
+                            brand</p>
+                    </div>
+                    <div class="top-cards">
+                        <div class="content-tp first-child">
+                            <div class="cardicon-top">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                            </div>
+                            <div class="first">
+                                <img src="./image/wade.png" alt="wade">
+                                <div class="intreduce">
+                                    <div class="first-title">
+                                        <h2>Wade Warren</h2>
+                                        <span>Louis Vuitton</span>
+                                    </div>
+                                    <p>Necessary to deliver white golve, fully
+                                        managed campaigns that surpass industry
+                                        benchmarks. Take your career to next
+                                        level.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cardicon-bottom">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                                <img src="./image/cardpic.png" alt="cardpic">
+                            </div>
+                        </div>
+                        <!-- <div class="content-tp">
+                            <div class="first">
+                                <img src="./image/albert.png" alt="albert">
+                                <div class="intreduce">
+                                    <div class="first-title">
+                                        <h2>Albert Florise</h2>
+                                        <span>Nintendo</span>
+                                    </div>
+                                    <p>Necessary to deliver white golve,
+                                        fully
+                                        managed campaigns that surpass
+                                        industry
+                                        benchmarks. Take your career to next
+                                        level.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="content-tp">
+                            <div class="first">
+                                <img src="./image/jenny.png" alt="jenny">
+                                <div class="intreduce">
+                                    <div class="first-title">
+                                        <h2>Jenny Wilson</h2>
+                                        <span>Bank of America</span>
+                                    </div>
+                                    <p>Necessary to deliver white golve,
+                                        fully
+                                        managed campaigns that surpass
+                                        industry
+                                        benchmarks. Take your career to next
+                                        level.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
